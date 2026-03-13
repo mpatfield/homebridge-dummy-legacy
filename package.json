@@ -1,7 +1,7 @@
 {
   "name": "homebridge-dummy-legacy",
   "displayName": "Homebridge Dummy Legacy",
-  "version": "0.9.3",
+  "version": "0.9.4-beta.0",
   "author": {
     "name": "mpatfield"
   },
@@ -24,7 +24,7 @@
   },
   "engines": {
     "homebridge": "^1.8.0 || ^2.0.0-beta.0",
-    "node": "^18.20.4 || ^20.15.1 || ^22"
+    "node": "^18.20.4 || ^20.15.1 || ^22 || ^24"
   },
   "repository": {
     "type": "git",
@@ -38,7 +38,7 @@
     "url": "https://github.com/sponsors/mpatfield"
   },
   "dependencies": {
-    "homebridge-lib": "^7.1.4",
+    "homebridge-lib": "^7.1.8",
     "lodash.merge": "^4.6.2",
     "node-persist": "^4.0.4"
   },
@@ -46,7 +46,7 @@
     "@types/lodash.merge": "^4.6.9",
     "@types/node-persist": "^3.1.8",
     "eslint": "^9.27.0",
-    "homebridge": "^2.0.0-beta.0",
+    "homebridge": "^2.0.0-beta.30",
     "jiti": "^2.6.1",
     "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
