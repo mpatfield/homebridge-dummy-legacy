@@ -18,11 +18,9 @@
     "skipLibCheck": true
   },
   "include": [
-    "eslint.config.js",
     "src"
   ],
   "exclude": [
-    "eslint.config.ts",
     "node_modules",
     "src/homebridge-ui/ui.ts"
   ]
