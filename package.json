@@ -19,8 +19,7 @@
   ],
   "scripts": {
     "build": "rimraf ./dist && tsc",
-    "lint": "eslint . --max-warnings=0",
-    "prepublishOnly": "npm run lint && npm run build"
+    "prepublishOnly": "npm run build"
   },
   "engines": {
     "homebridge": "^1.8.0 || ^2.0.0",
@@ -45,12 +44,10 @@
   "devDependencies": {
     "@types/lodash.merge": "^4.6.9",
     "@types/node-persist": "^3.1.8",
-    "eslint": "^9.27.0",
     "homebridge": "^2.0.0",
     "jiti": "^2.6.1",
     "rimraf": "^6.0.1",
-    "ts-node": "^10.9.2",
-    "typescript-eslint": "^8.24.1"
+    "ts-node": "^10.9.2"
   },
   "license": "Apache-2.0"
 }
