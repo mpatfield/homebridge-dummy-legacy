@@ -37,7 +37,7 @@
     "url": "https://github.com/sponsors/mpatfield"
   },
   "dependencies": {
-    "homebridge-lib": "^7.3.2",
+    "homebridge-lib": "^8.1.5",
     "node-persist": "^4.0.4"
   },
   "devDependencies": {
